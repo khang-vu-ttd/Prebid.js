@@ -14,7 +14,7 @@ import { getConnectionType } from '../libraries/connectionInfo/connectionUtils.j
  * @typedef {import('../src/adapters/bidderFactory.js').UserSync} UserSync
  */
 
-const BIDADAPTERVERSION = 'TTD-PREBID-2025.04.25';
+const BIDADAPTERVERSION = 'TTD-PREBID-2025.07.14';
 const BIDDER_CODE = 'ttd';
 const BIDDER_CODE_LONG = 'thetradedesk';
 const BIDDER_ENDPOINT = 'https://direct.adsrvr.org/bid/bidder/';
