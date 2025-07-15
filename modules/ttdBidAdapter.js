@@ -342,8 +342,7 @@ export const spec = {
     }
 
     if (bid.params.customBidderEndpoint &&
-        (!bid.params.customBidderEndpoint.startsWith('https://') || !bid.params.customBidderEndpoint.endsWith('/bid/bidder/'))
-       ) {
+        (!bid.params.customBidderEndpoint.startsWith('https://') || !bid.params.customBidderEndpoint.endsWith('/bid/bidder/')) ) {
       utils.logWarn(BIDDER_CODE + ': if params.customBidderEndpoint is provided, it must start with https:// and end with /bid/bidder/');
       return false;
     }

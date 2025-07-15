@@ -115,7 +115,7 @@ describe('ttdBidAdapter', function () {
       it('should return true if customBidderEndpoint is provided that starts with https:// and ends with /bid/bidder/', function () {
         const bid = makeBid();
         bid.params.customBidderEndpoint = 'https://customBidderEndpoint/bid/bidder/';
-        expect(spec.isBidRequestValid(bid)).to.equal(false);
+        expect(spec.isBidRequestValid(bid)).to.equal(true);
       });
     });
 
